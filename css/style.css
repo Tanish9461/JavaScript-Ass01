@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Set font family for the entire page */
+    background-color: grey; /* Set background color for the entire page */
+}
+
+/* Header 1 styles */
+body h1 {
+    text-align: center; /* Center-align header 1 */
+    text-decoration: underline; /* Add underline to header 1 */
+}
+
+/* Section Header 2 styles */
+section h2 {
+    text-decoration: underline; /* Add underline to header 2 inside sections */
+}
+
+/* Button styles */
+button {
+    padding: 7px 15px; /* Increase button padding */
+    font-size: 15px; /* Increase button font size */
+    background-color: #1741a3; /* Set button background color */
+    border: none; /* Remove button border */
+    color: white; /* Set button text color */
+    border-radius: 5px; /* Apply border radius to button */
+    cursor: pointer; /* Set cursor to pointer for button */
+    margin: 1px; /* Add margin to button */
+}
+
+/* Story paragraph styles */
+#watchStory {
+    font-size: 24px; /* Increase story font size */
+    background-color: #FFF8DC; /* Set background color for story paragraph */
+    padding: 15px; /* Add padding to story paragraph */
+    border-radius: 5px; /* Apply border radius to story paragraph */
+    margin-top: 30px; /* Add top margin to story paragraph */
+    text-align: center; /* Center-align text within story paragraph */
+}

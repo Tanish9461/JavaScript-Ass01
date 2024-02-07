@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta information -->
+    <meta charset="utf-8" />
+    <title>See-N-Say Storymaker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Link to the existing external CSS file -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- Script for storymaker with defer attribute to load after the document is parsed -->
+    <script src="./js/storymaker.js" defer></script>
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>See-N-Say Storymaker</h1>
+        <p id="studentId"></p> <!-- Placeholder for student ID -->
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- User interaction section -->
+        <section class="user-interaction">
+            <h2>Create Your Own Story:</h2>
+            <!-- Word type buttons and selected words display -->
+            <div class="word-type">
+                <button id="noun1">Noun 1</button>
+                <p id="selectedNoun1"></p>
+            </div>
+            <div class="word-type">
+                <button id="verb">Verb</button>
+                <p id="selectedVerb"></p>
+            </div>
+            <div class="word-type">
+                <button id="adjective">Adjective</button>
+                <p id="selectedAdjective"></p>
+            </div>
+            <div class="word-type">
+                <button id="noun2">Noun 2</button>
+                <p id="selectedNoun2"></p>
+            </div>
+            <div class="word-type">
+                <button id="setting">Setting</button>
+                <p id="selectedSetting"></p>
+                </div>
+            <div class="word-type">
+                <button id="studentnumber">Student Number</button>
+                <p id="selectedStudentNumber"></p>
+            </div>
+        </section>
+
+        <!-- Story playback section -->
+        <section class="story-playback">
+            <h2>See Your Story</h2>
+            <!-- Story controls buttons and display -->
+            <div class="story-controls">
+                <button id="showStory">Show Story</button>
+                <button id="randomStory">Random Story</button>
+            </div>
+              <div class="word-type">
+                <button id="studentNumber">Student Number</button>
+            </div>
+            <p id="watchStory"></p> <!-- Placeholder for the story display -->
+        </section>
+    </main>
+</body>
+
+</html>
